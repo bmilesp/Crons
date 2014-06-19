@@ -1,6 +1,6 @@
 <?php 
 class Locking extends AppModel {
-	var $useDbConfig = 'crons_locking';
+	var $useDbConfig = 'admin_endpoints';
 	var $useTable = false;
 	var $actsAs = array('Endpoints.Endpoint');
 	
